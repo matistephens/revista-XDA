@@ -1,0 +1,18 @@
+.picture {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .picture {
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 275px;
+      object-position: top;
+    }
+  }
+}

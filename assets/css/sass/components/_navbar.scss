@@ -1,0 +1,30 @@
+.navbar {
+  padding: 0;
+
+  &-brand-container {
+    padding: 14px;
+    background-color: #0c0910;
+  }
+
+  &-brand {
+    margin-right: 0;
+    color: white !important;
+    font-family: "Old TT";
+  }
+
+  &-nav {
+    font-family: raleway, sans-serif;
+    font-weight: bold;
+    @extend .ml-auto;
+    @extend .mr-4;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navlink {
+  padding-left: 16px;
+  padding-right: 16px;
+}
